@@ -671,6 +671,12 @@ body {
         margin-bottom: 50px;
     }
 
+    .work-example-links {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
     .page-footer {
         width: 100%;
         border-left: 0;
