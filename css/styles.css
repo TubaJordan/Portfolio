@@ -474,20 +474,22 @@ body {
 }
 
 .work-example-links {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline dotted;
+    color: rgb(0, 58, 85);
     position: relative;
     font-family: 'DotGothic16', sans-serif;
     padding-bottom: 5px;
     z-index: 1;
+    text-underline-offset: 5px
 }
 
 .work-example-links:hover {
-    color: rgb(23, 112, 153);
+    color: rgb(23, 149, 153);
+    /* text-decoration: none; */
     z-index: 1;
 }
 
-.work-example-links::before {
+/* .work-example-links::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -506,7 +508,7 @@ body {
     transform-origin: left;
     transform: scaleX(1);
     z-index: 1;
-}
+} */
 
 @media screen and (max-width: 1600px) {
     .projects {
