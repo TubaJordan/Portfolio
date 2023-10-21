@@ -571,7 +571,7 @@ body {
     }
 
     .welcome-main {
-        margin-top: 150px;
+        margin-top: 175px;
         width: 95%;
         margin-bottom: 50px;
     }
@@ -681,7 +681,7 @@ body {
     #work-examples,
     #contact,
     #welcome {
-        padding-top: 150px;
-        margin-top: -150px;
+        padding-top: 175px;
+        margin-top: -175px;
     }
 }
