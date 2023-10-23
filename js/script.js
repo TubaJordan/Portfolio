@@ -1,8 +1,3 @@
-// document.addEventListener("scroll", function () {
-//     const translateY = window.pageYOffset;
-//     document.body.style.setProperty('--scroll', `${-translateY * 0.15}px`);
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
     const images = [
         "../images/JungleRuins.jpg",
@@ -23,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener("scroll", function () {
-    let parallaxIntensity = window.innerWidth > 475 ? 0.15 : 0.08; // Adjust the 0.08 value for smaller screens based on testing
+    let parallaxIntensity = window.innerWidth > 475 ? 0.08 : 0.04; // Adjust the 0.08 value for smaller screens based on testing
     const translateY = window.pageYOffset;
     document.body.style.setProperty('--scroll', `${-translateY * parallaxIntensity}px`);
 });
