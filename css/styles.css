@@ -671,3 +671,53 @@ body {
         margin-top: -175px;
     }
 }
+
+@-webkit-keyframes bouncebounce {
+    0% {
+        bottom: -5px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+@-moz-keyframes bouncebounce {
+    0% {
+        bottom: -5px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+@-ms-keyframes bouncebounce {
+    0% {
+        bottom: -5px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+@keyframes bouncebounce {
+    0% {
+        bottom: -5px;
+    }
+
+    100% {
+        bottom: 5px;
+    }
+}
+
+.arrow {
+    display: block;
+    bottom: -5px;
+    position: relative;
+    -webkit-animation: bouncebounce 0.9s 1.5s infinite ease-in-out alternate;
+    -moz-animation: bouncebounce 0.9s 1.5s infinite ease-in-out alternate;
+    -ms-animation: bouncebounce 0.9s 1.5s infinite ease-in-out alternate;
+    animation: bouncebounce 0.9s 1.5s infinite ease-in-out alternate;
+}
