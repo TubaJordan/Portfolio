@@ -245,6 +245,22 @@ body {
     margin: 5px;
 }
 
+.small-icon {
+    width: 25px;
+    margin: 8px;
+}
+
+.small-icons-container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2px 2px 4px rgb(66, 66, 66);
+}
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
