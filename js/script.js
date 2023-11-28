@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener("scroll", function () {
-    let parallaxIntensity = window.innerWidth > 475 ? 0.08 : 0.04; // Adjust the 0.08 value for smaller screens based on testing
+    let parallaxIntensity = window.innerWidth > 475 ? 0.08 : 0.04;
     const translateY = window.pageYOffset;
     document.body.style.setProperty('--scroll', `${-translateY * parallaxIntensity}px`);
 });
