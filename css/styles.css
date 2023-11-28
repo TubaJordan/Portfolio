@@ -155,7 +155,7 @@ body {
 }
 
 .regular-font {
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .line-one {
@@ -165,6 +165,7 @@ body {
     letter-spacing: 1px;
     font-size: 25px;
     width: 85%;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .line-two {
@@ -174,10 +175,11 @@ body {
     letter-spacing: 1px;
     font-size: 20px;
     width: 85%;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .about-me-paragraph {
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 25px;
     font-size: 16px;
     letter-spacing: 0.15px;
@@ -340,6 +342,7 @@ body {
 }
 
 .contact-me {
+    font-family: 'DotGothic16', sans-serif;
     padding-top: 20px;
     margin-bottom: 40px;
 }
@@ -467,7 +470,7 @@ body {
 
 .projects-items-desc {
     line-height: 25px;
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .image-screenshot {
@@ -493,7 +496,7 @@ body {
     text-decoration: underline dotted;
     color: rgb(0, 58, 85);
     position: relative;
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 5px;
     z-index: 1;
     text-underline-offset: 5px
