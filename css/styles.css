@@ -308,6 +308,24 @@ body {
     letter-spacing: 1px;
 }
 
+.icon-subtext-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-subtext {
+    margin: 0;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    max-width: 60px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.45);
+}
+
 .heading-main {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
@@ -541,11 +559,7 @@ body {
     }
 
     .image-screenshot {
-        width: 325px;
-    }
-
-    .image-screenshot {
-        width: 225px;
+        width: 280px;
     }
 
     .projects-items-desc {
