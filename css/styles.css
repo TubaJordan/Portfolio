@@ -738,6 +738,34 @@ body {
     margin: 20px;
 }
 
+.about-me-resume {
+    border-top: 1px solid rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.resume-download {
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: underline dotted;
+    text-underline-offset: 5px;
+    color: rgb(0, 58, 85);
+    transition: all 0.2s ease-in-out;
+}
+
+.resume-download:hover {
+    text-decoration: underline dotted;
+    color: rgb(23, 149, 153);
+    transition: all 0.2s ease-in-out;
+}
+
+.resume-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
 @media screen and (max-width: 1600px) {
     .projects {
         width: 90%;
