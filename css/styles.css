@@ -692,11 +692,15 @@ body {
     margin-top: 10px;
     font-family: 'DotGothic16', sans-serif;
     letter-spacing: 1px;
+
+    min-height: 1em;
 }
 
 .projects-items-desc {
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
+
+    min-height: 6em;
 }
 
 .image-screenshot {
@@ -764,6 +768,13 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 45px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -1065,6 +1076,10 @@ body {
     #welcome {
         padding-top: 175px;
         margin-top: -175px;
+    }
+
+    .text-wrapper {
+        height: fit-content;
     }
 }
 
