@@ -22,3 +22,11 @@ document.addEventListener("scroll", function () {
     const translateY = window.pageYOffset;
     document.body.style.setProperty('--scroll', `${-translateY * parallaxIntensity}px`);
 });
+
+const splash = document.querySelector(".splash");
+
+document.addEventListener("DOMContentLoaded", (e) => {
+    setTimeout(() => {
+        splash.classList.add("display-none");
+    }, 2000);
+})

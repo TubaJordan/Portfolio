@@ -19,6 +19,59 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 185%;
+    background-image: var(--random-bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 999999999999;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+}
+
+.splash.display-none {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 185%;
+    background-image: var(--random-bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    transition: all 1s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+.loading-splash {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    transform: rotate(5deg);
+}
+
 .centering {
     display: flex;
     justify-content: center;
